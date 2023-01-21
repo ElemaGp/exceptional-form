@@ -1,10 +1,10 @@
 import React from 'react'
 // import ChakraInput from './ChakraInput'
 // import Input from './Input'
-// import MuiInput from './MuiInput'
+import MuiInput from './MuiInput'
 // import MuiTextarea from './MuiTextarea'
 // import Textarea from './Textarea'
-import Select from './Select'
+import MuiSelect from './MuiSelect'
 // import RadioButtons from './RadioButtons'
 // import CheckboxGroup from './CheckboxGroup'
 // import DatePicker from './DatePicker'
@@ -17,8 +17,8 @@ function FormikControl (props) {
     //   return <Input {...rest} />
     // case 'textarea':
     //   return <Textarea {...rest} />
-    case 'select':
-      return <Select {...rest} />
+    case 'MuiSelect':
+      return <MuiSelect {...rest} />
     // case 'radio':
     //   return <RadioButtons {...rest} />
     // case 'checkbox':
@@ -27,8 +27,8 @@ function FormikControl (props) {
     //   return <DatePicker {...rest} />
     // case 'chakraInput':
     //   return <ChakraInput {...rest} />
-    // case 'MuiInput':
-    //   return <MuiInput {...rest} />
+    case 'MuiInput':
+      return <MuiInput {...rest} />
     // case 'MuiTextarea':
     //   return <MuiTextarea {...rest} />
 
